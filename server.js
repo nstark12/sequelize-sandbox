@@ -1,3 +1,4 @@
+require('dotenv').config()
 const sequelize = require('./db/connection')
 require('./models')
 const routes = require('./routes')
