@@ -1,5 +1,5 @@
 const { Sequelize } = require('sequelize')
-const sequelize = new Sequelize('pokemon_db', 'root', 'rootroot', {
+const sequelize = new Sequelize('pokemon_db', 'root', 'Root123!', {
     host: '127.0.0.1', // I had errors when using 'localhost', this was my fix
     dialect: 'mysql'
 })
